@@ -1,0 +1,382 @@
+{
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "join": "Join VGBC",
+    "Business": "Business network",
+    "Events": "Events",
+    "homeLabel": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "testimonials": "Clients",
+    "phiendichvien": "Interpreters",
+    "blog": "Knowledge",
+    "news": "News",
+    "contact": "Contact",
+    "mc": "Mc",
+    "compile": "Translation",
+    "train": "Training",
+    "home": "Home",
+    "cabinSimultaneous": "Cabin & Simultaneous Interpretation",
+    "stage": "Stage Interpretation",
+    "bilingualMc": "Bilingual MC",
+    "meetingExhibition": "Meeting, Delegation & Exhibition Interpretation",
+    "online": "Online Interpretation",
+    "languagePersonnel": "Language Personnel",
+    "company_name": "Vietnam Global Business Council"
+  },
+  "lang": {
+    "current": "EN"
+  },
+  "hero": {
+    "1": "Language & Communication",
+    "2": "Events & Media",
+    "3": "Business Development & Trade Promotion",
+    "4": "Investment & Project Consulting",
+    "5": "Business Representation",
+    "6": "Interpretation Services",
+    "title": "VGBC - Connecting Vietnam and the World – Empowering Businesses, Bridging Cultures.",
+    "subtitle": "VGBC – Vietnam Global Business Council is an organization dedicated to fostering the growth of the business community with the mission of promoting trade cooperation, communication, and partnerships between Vietnamese and international enterprises. At VGBC, our greatest strength lies in our people — a team of seasoned experts, interpreters, bilingual MCs, media consultants, and business strategists who share one common mission: connecting Vietnam with the world. From international event coordinators and bilingual negotiators to trade promotion and global communications specialists, every member of VGBC embodies professionalism, adaptability, and a global mindset. We don’t just provide services — we build human bridges, where businesses and partners can find trust, effectiveness, and real value in every cross-border collaboration. The professionals at VGBC are not only experts; they are cultural connectors, brand storytellers, and representatives of a new generation of global-minded Vietnamese entrepreneurs.",
+    "btnServices": "View Services",
+    "btnQuote": "Get Quote",
+    "videoLabel": "Introduction video",
+    "videoTitle": "Introduction",
+    "table": "VGBC Ecosystem"
+  },
+  "aboutvgbc": {
+    "title": "About VGBC",
+    "subtitle": "The <strong>Vietnam Global Business Council (VGBC)</strong> empowers Vietnamese and international enterprises to <em>connect, collaborate and grow sustainably</em>. We operate as a <strong>strategic trade & business council</strong>, facilitating cross‑border partnerships,trade missions and market entry between Vietnam and the world.",
+    "title1": "Mission",
+    "subtitle1": "Be the trusted gateway that enhances Vietnam’s global business presence—linking government, corporations and entrepreneurs through meaningful cooperation and high‑impact initiatives.",
+    "title2": "Vision",
+    "subtitle2": "Position VGBC as <strong>Asia’s leading hub</strong> for international business promotion and partnership development—where language, integrity and innovation converge.",
+    "title3": "Core Values",
+    "subtitle3.1": "<strong>Excellence & Integrity</strong> — International‑grade professionalism.",
+    "subtitle3.2": "<strong>Bridging East & West</strong> — Multilingual experts turn communication into connection.",
+    "subtitle3,3": "<strong>Empowerment & Growth</strong> — Measurable impact for sustainable expansion."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "ariaLabel": "Client testimonials",
+    "prev": "Previous",
+    "next": "Next",
+    "testimonial1": "chúng ta của hiện tại",
+    "testimonial1Author": "Energy Company Representative",
+    "testimonial1Name": "Pham Nhat Vuongggg",
+    "testimonial1Company": "Vingroup",
+    "testimonial2": "Good terminology processing speed, smooth program support from preparation to operation.",
+    "testimonial2Author": "Vice Chairman of the Board",
+    "testimonial2Name": "Hoang Nam Tien",
+    "testimonial2Company": "FPT Corporation",
+    "testimonial3": "Elegant bilingual MC, naturally connecting multicultural audiences and international speakers.",
+    "testimonial3Author": "Chairman of the Board",
+    "testimonial3Name": "Dang Le Nguyen Vu",
+    "testimonial3Company": "Trung Nguyen Group",
+    "testimonial4": "Accurate translation team, consistent terminology, fast delivery.",
+    "testimonial4Author": "General Director",
+    "testimonial4Name": "Bui Thi Minh",
+    "testimonial4Company": "Vietnam Prosperity Bank",
+    "testimonial5": "Professional interpreters with deep understanding of the medical field, excellent support for our international workshop.",
+    "testimonial5Author": "Chief Executive Officer",
+    "testimonial5Name": "Tran Thi Trinh",
+    "testimonial5Company": "VinaCapital Investment Group",
+    "testimonial6": "High-quality simultaneous interpretation service, helped the conference succeed beyond expectations.",
+    "testimonial6Author": "Chairman of the Board",
+    "testimonial6Name": "Nguyen Quang",
+    "testimonial6Company": "BRG Group",
+    "testimonial7": "Enthusiastic and professional interpreters, very flexible in handling unexpected situations.",
+    "testimonial7Author": "General Director",
+    "testimonial7Name": "Vo Truong",
+    "testimonial7Company": "Novaland Group",
+    "testimonial8": "sdfgsdg",
+    "testimonial8Author": "afdsg ",
+    "testimonial8Name": "dfg ",
+    "testimonial8Company": "dafga fg"
+  },
+  "services": {
+    "title": "What We Offer",
+    "subtitle": "Comprehensive business services for your enterprise.",
+    "ariaLabel": "Professional services",
+    "conference": "Conference Interpretation",
+    "conferenceDesc": "Professional interpretation services for conferences and international events with experienced interpreters.",
+    "bilingualMC": "Bilingual MC",
+    "bilingualMCDesc": "Professional event hosting in two languages, effectively connecting multicultural audiences.",
+    "english": "Business English",
+    "englishDesc": "Specialized English teaching for businesses and entrepreneurs, focusing on international business communication.",
+    "events": "Event Organization",
+    "eventsDesc": "Professional organization of conferences, seminars, and events of various scales from small to large.",
+    "media": "Media & Press Relations",
+    "mediaDesc": "Providing media and press advertising services to enhance brand image and visibility.",
+    "business": "Business Networking",
+    "businessDesc": "Trade promotion, business connections, creating opportunities for domestic and international business cooperation.",
+    "investment": "Investment Fundraising",
+    "investmentDesc": "Supporting investment fundraising for projects, connecting with domestic and international investors.",
+    "viewMore": "View More",
+    "a": "Business Travel",
+    "aDesc": "For international entrepreneurs and investors who wish to visit Vietnam to explore the market, seek business partners, and connect with potential clients."
+  },
+  "footer": {
+    "title": "VGBC – Vietnam Global Business Council",
+    "tagline": "Professional interpretation team connecting Vietnamese businesses with the world through international-class language services.",
+    "contact": "Contact",
+    "follow": "Follow Us",
+    "copyright": "© <span id=\"year\"></span> VGBC — Professional interpretation team connecting Vietnamese businesses with the world.",
+    "backToTop": "Back to Top",
+    "backToTopLabel": "Back to Top",
+    "contactInfo": {
+      "address": "More Building, No. 36 Mac Dinh Chi Street, Tan Dinh Ward, Ho Chi Minh City",
+      "phone": "+84 374504168  Ms. Anh",
+      "email": "haanhpham1111@gmail.com"
+    },
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "interpreters": "Interpreters",
+      "blog": "Knowledge",
+      "contact": "Contact"
+    },
+    "serviceLinks": {
+      "cabin": "Cabin & Simultaneous Interpretation",
+      "stage": "Stage Interpretation",
+      "mc": "Bilingual MC",
+      "online": "Online Interpretation",
+      "personnel": "Language Personnel"
+    },
+    "newsletterText": "Subscribe to latest news",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe"
+  },
+  "meta": {
+    "title": "VGBC - Vietnam Global Business Council",
+    "description": "VGBC - Connecting Vietnam and the World – Empowering Businesses, Bridging Cultures."
+  },
+  "ecosystem": {
+    "title": "VGBC Ecosystem",
+    "note": "(Additional services - highly valuable to establish the role of \"International Business Council\")",
+    "cta_titles": [
+      "Language & Communication",
+      "Events & Media",
+      "Business Dev & Trade",
+      "Investment & Projects",
+      "Business Representation"
+    ],
+    "sections": [
+      {
+        "id": "language",
+        "title": "Language & Communication",
+        "items": [
+          {
+            "title": "Professional Interpretation",
+            "desc": "Simultaneous, consecutive, escort, on-site (EN–VI–ZH–JA–KO…)"
+          },
+          {
+            "title": "Bilingual MC & Event Talents",
+            "desc": "Bilingual MCs, international event staff, protocol coordinators"
+          },
+          {
+            "title": "Business English Training",
+            "desc": "Corporate English, negotiation, presentation, business correspondence"
+          }
+        ]
+      },
+      {
+        "id": "events",
+        "title": "Events & Media",
+        "items": [
+          {
+            "title": "Event Management",
+            "desc": "Conferences, seminars, MoU ceremonies, business tours"
+          },
+          {
+            "title": "Public Relations & Press",
+            "desc": "Media outreach, interviews, brand communications"
+          },
+          {
+            "title": "Digital Campaigns",
+            "desc": "Content production, recap videos, social media campaigns"
+          }
+        ]
+      },
+      {
+        "id": "business",
+        "title": "Business Development & Trade Promotion",
+        "items": [
+          {
+            "title": "B2B Connection",
+            "desc": "Connecting domestic and international businesses"
+          },
+          {
+            "title": "Trade Facilitation",
+            "desc": "Fairs, exhibitions, buyer–seller matchmaking"
+          },
+          {
+            "title": "Market Research & Strategy",
+            "desc": "Market research and international expansion strategy"
+          }
+        ]
+      },
+      {
+        "id": "investment",
+        "title": "Investment & Project Consulting",
+        "items": [
+          {
+            "title": "Investment Matchmaking",
+            "desc": "Fundraising and investor connections"
+          },
+          {
+            "title": "Project Evaluation",
+            "desc": "Feasibility analysis and documentation"
+          },
+          {
+            "title": "Corporate Advisory",
+            "desc": "Basic legal & financial advisory for foreign firms entering Vietnam"
+          }
+        ]
+      },
+      {
+        "id": "representation",
+        "title": "Business Representation",
+        "items": [
+          {
+            "title": "Representative Office Service",
+            "desc": "Act on behalf of foreign companies in Vietnam (negotiations, PR, receptions, reporting)"
+          },
+          {
+            "title": "Brand & Media Spokesperson",
+            "desc": "Represent brands at official events and media"
+          },
+          {
+            "title": "Local Operation Support",
+            "desc": "Legal–language–logistics–communications for firms without a VN office"
+          },
+          {
+            "title": "VIP & Protocol Liaison",
+            "desc": "Protocol support and coordination for high-level delegations"
+          }
+        ]
+      }
+    ]
+  },
+  "businessNetwork": {
+    "title": "Business Network",
+    "subtitle": "Connect and grow with the VGBC business community",
+    "partners": {
+      "title": "Partner Categories",
+      "travel": {
+        "title": "Tourism",
+        "desc": "Leading partners in the tourism and hospitality industry"
+      },
+      "technology": {
+        "title": "Technology",
+        "desc": "Innovative technology companies and startups"
+      },
+      "manufacturing": {
+        "title": "Manufacturing",
+        "desc": "Top manufacturers in Vietnam"
+      },
+      "export": {
+        "title": "Import/Export",
+        "desc": "International trade experts"
+      }
+    },
+    "successStories": {
+      "title": "Success Stories",
+      "readMore": "Read More",
+      "story1": {
+        "title": "International Market Expansion",
+        "desc": "Company ABC successfully expanded to 5 new markets through the VGBC network."
+      },
+      "story2": {
+        "title": "Breakthrough Technology Partnership",
+        "desc": "The collaboration between technology and manufacturing companies created innovative solutions."
+      },
+      "story3": {
+        "title": "300% Export Growth",
+        "desc": "Company XYZ achieved impressive growth after joining the VGBC network."
+      }
+    },
+    "memberProgram": {
+      "title": "Member Program",
+      "desc": "Become a VGBC member to enjoy exclusive benefits and unlimited networking opportunities",
+      "popular": "Most Popular",
+      "basic": {
+        "title": "Basic Member",
+        "feature1": "Attend VGBC events",
+        "feature2": "Access basic directory",
+        "feature3": "Monthly newsletter",
+        "cta": "Register Now"
+      },
+      "professional": {
+        "title": "Professional Member",
+        "feature1": "All Basic benefits",
+        "feature2": "Attend exclusive networking events",
+        "feature3": "Partner connection support",
+        "feature4": "20% discount on special events",
+        "cta": "Register Now"
+      },
+      "enterprise": {
+        "title": "Enterprise Member",
+        "feature1": "All Professional benefits",
+        "feature2": "Company profile on VGBC website",
+        "feature3": "Priority partner referrals",
+        "feature4": "Private event organization",
+        "feature5": "International market support",
+        "cta": "Contact Us"
+      }
+    },
+    "howToJoin": {
+      "title": "How Businesses Can Join the VGBC Network",
+      "step1": {
+        "title": "Register",
+        "desc": "Fill out the registration form and submit your company information"
+      },
+      "step2": {
+        "title": "Review",
+        "desc": "The VGBC team will review and approve your application"
+      },
+      "step3": {
+        "title": "Connect",
+        "desc": "Join the community and start connecting with other businesses"
+      },
+      "step4": {
+        "title": "Grow",
+        "desc": "Leverage opportunities and resources to grow your business"
+      },
+      "cta": "Join Now"
+    }
+  },
+  "contact": {
+    "ariaLabel": "Contact",
+    "title": "Contact Us",
+    "subtitle": "We are always ready to support you in all cooperation, investment, and international communication requests.",
+    "address": "Address:",
+    "address_value": "More Building, No. 36 Mac Dinh Chi Street, Tan Dinh Ward, Ho Chi Minh City",
+    "phone": "Phone:",
+    "phone_value": "(+84) 374504168  Ms. Anh",
+    "email": "Email:",
+    "email_value": "haanhpham1111@gmail.com",
+    "hours": "Working Hours:",
+    "hours_value": "Monday – Friday: 8:30 AM – 5:30 PM",
+    "follow": "Connect With Us",
+    "social": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "zalo": "Zalo"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Your email address",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Your message content...",
+      "submit": "Send Message"
+    },
+    "mapLabel": "Map",
+    "map_location": "490 ABC Street, District 7, Ho Chi Minh City"
+  }
+}

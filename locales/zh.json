@@ -1,0 +1,382 @@
+{
+  "nav": {
+    "ariaLabel": "主导航",
+    "homeLabel": "首页",
+    "services": "服务",
+    "about": "关于我们",
+    "testimonials": "客户",
+    "phiendichvien": "口译员",
+    "blog": "知识",
+    "news": "新闻",
+    "contact": "联系",
+    "mc": "主持人",
+    "compile": "翻译",
+    "train": "培训",
+    "home": "首页",
+    "cabinSimultaneous": "同传箱、同声传译",
+    "stage": "舞台口译",
+    "bilingualMc": "双语主持",
+    "meetingExhibition": "会议、代表团、展览口译",
+    "online": "在线口译",
+    "languagePersonnel": "语言人员",
+    "join": "加入VGBC",
+    "Business": "商务网络",
+    "Events": "精彩活动",
+    "company_name" :"越南全球商业理事会"
+  },
+  "lang": {
+    "current": "中文"
+  },
+  "aboutvgbc": {
+    "title": "关于 VGBC",
+    "subtitle": "<strong>越南全球企业理事会（VGBC）</strong> 赋能越南及国际企业 <em>连接、合作并实现可持续发展</em>。我们作为一个<strong>战略性贸易与商务理事会</strong>，促进越南与全球之间的跨境合作、商务考察及市场准入，助力企业拓展国际业务版图。",
+    "title1": "使命",
+    "subtitle1": "成为值得信赖的门户，提升越南在全球商业舞台的影响力——通过有意义的合作与高影响力的倡议连接政府、企业与企业家。",
+    "title2": "愿景",
+    "subtitle2": "将 VGBC 打造成<strong>亚洲领先的国际商务推广与合作发展中心</strong>——在这里，语言、诚信与创新融为一体。",
+    "title3": "核心价值观",
+    "subtitle3-1": "<strong>卓越与诚信</strong> —— 国际水准的专业精神。",
+    "subtitle3-2": "<strong>连接东西</strong> —— 多语言专家将沟通转化为真正的联系。",
+    "subtitle3-3": "<strong>赋能与成长</strong> —— 以可衡量的成果推动可持续扩展。"
+  },
+  "hero": {
+    "1": "语言与沟通",
+    "2": "活动与媒体",
+    "3": "企业发展与贸易促进",
+    "4": "投资与项目咨询",
+    "5": "企业代表服务",
+    "6": "口译服务",
+    "title": "VGBC——连接人与企业、文化与世界的桥梁，让越南与世界共同腾飞。",
+    "subtitle": "VGBC——越南国际商业理事会 是一个致力于促进企业社区发展的组织，其使命是推动越南企业与国际企业之间的贸易合作、传播与交流。在 VGBC，我们最大的力量源自于“人”——由资深专家、专业口译员、双语主持人、媒体顾问和商业战略顾问组成的精英团队，他们共同肩负着同一个使命：让越南与世界相连。从国际活动统筹人员、双语谈判专家，到全球贸易推广与传播顾问，VGBC 的每一位成员都展现出专业精神、灵活思维和全球视野。我们不仅提供服务，更搭建人与人之间的桥梁，让企业与合作伙伴在每一次跨国合作中都能收获信任、高效与真正的价值。VGBC 的成员不仅是专业人士，更是文化的连接者、品牌的讲述者，也是越南新一代具有全球思维的企业家代表。",
+    "btnServices": "查看服务",
+    "btnQuote": "获取报价",
+    "videoLabel": "介绍视频",
+    "videoTitle": "介绍",
+    "table": "VGBC生态系统"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "ariaLabel": "客户感言",
+    "prev": "上一个",
+    "next": "下一个",
+    "testimonial1": "同传流畅，易于聆听；团队灵活，对专业主题准备充分。",
+    "testimonial1Author": "董事长",
+    "testimonial1Name": "范日旺",
+    "testimonial1Company": "Vingroup",
+    "testimonial2": "术语处理速度快，从准备到运营全程支持节目顺利进行。",
+    "testimonial2Author": "副董事长",
+    "testimonial2Name": "黄南进",
+    "testimonial2Company": "FPT Corporation",
+    "testimonial3": "双语主持人优雅，自然连接多元文化观众和国际演讲者。",
+    "testimonial3Author": "董事长",
+    "testimonial3Name": "邓黎原武",
+    "testimonial3Company": "中原集团",
+    "testimonial4": "翻译团队准确，术语一致，交付快速。",
+    "testimonial4Author": "总经理",
+    "testimonial4Name": "裴氏明",
+    "testimonial4Company": "越南兴旺银行",
+    "testimonial5": "专业口译，医疗领域专业知识深厚，为我们的国际研讨会提供了极好的支持。",
+    "testimonial5Author": "首席执行官",
+    "testimonial5Name": "陈氏贞",
+    "testimonial5Company": "VinaCapital投资集团",
+    "testimonial6": "高质量同声传译服务，帮助会议取得超出预期的成功。",
+    "testimonial6Author": "董事长",
+    "testimonial6Name": "阮光",
+    "testimonial6Company": "BRG集团",
+    "testimonial7": "口译团队热情、专业，在处理突发情况时非常灵活。",
+    "testimonial7Author": "总经理",
+    "testimonial7Name": "韦长",
+    "testimonial7Company": "Novaland集团",
+    "testimonial8": "口译员具有深厚的技术知识，帮助产品演示取得良好效果。",
+    "testimonial8Author": "董事长",
+    "testimonial8Name": "黎雄",
+    "testimonial8Company": "和发集团"
+  },
+  "services": {
+    "title": "我们提供",
+    "subtitle": "为您的企业提供全面的商业服务。",
+    "ariaLabel": "专业服务",
+    "conference": "会议口译",
+    "conferenceDesc": "为会议和国际活动提供专业口译服务，拥有经验丰富的口译团队。",
+    "bilingualMC": "双语主持",
+    "bilingualMCDesc": "专业的双语活动主持，有效连接多元文化观众。",
+    "english": "商务英语",
+    "englishDesc": "为企业家和企业家提供专业英语教学，专注于国际商务沟通。",
+    "events": "活动组织",
+    "eventsDesc": "专业组织各种规模从大到小的会议、研讨会和活动。",
+    "media": "媒体与新闻关系",
+    "mediaDesc": "提供媒体和新闻广告服务，提升品牌形象和知名度。",
+    "business": "商务网络",
+    "businessDesc": "贸易促进、企业连接，为国内外商务合作创造机会。",
+    "investment": "投资融资",
+    "investmentDesc": "支持项目投资融资，连接国内外投资者。",
+    "viewMore": "查看更多",
+    "a": "商务旅行",
+    "aDesc": "为希望前往越南考察市场、寻找合作伙伴及潜在客户的国际企业家和投资者而设。"
+  },
+  "footer": {
+    "title": "VGBC – 越南全球企业理事会",
+    "tagline": "专业口译团队，通过国际级语言服务连接越南企业与世界。",
+    "contact": "联系",
+    "follow": "关注我们",
+    "copyright": "© <span id=\"year\"></span> VGBC — 专业口译团队，连接越南企业与世界。",
+    "backToTop": "返回顶部",
+    "backToTopLabel": "返回顶部",
+    "contactInfo": {
+      "address": "More Building, No. 36 Mac Dinh Chi Street, Tan Dinh Ward, Ho Chi Minh City",
+      "phone": "+84 374504168  Ms. Anh",
+      "email": "haanhpham1111@gmail.com"
+    },
+    "quickLinks": "快速链接",
+    "services": "服务",
+    "links": {
+      "home": "首页",
+      "services": "服务",
+      "about": "关于我们",
+      "interpreters": "口译员",
+      "blog": "知识",
+      "contact": "联系"
+    },
+    "serviceLinks": {
+      "cabin": "同传箱、同声传译",
+      "stage": "舞台口译",
+      "mc": "双语主持",
+      "online": "在线口译",
+      "personnel": "语言人员"
+    },
+    "newsletterText": "订阅最新新闻",
+    "emailPlaceholder": "您的电子邮件",
+    "subscribe": "订阅"
+  },
+  "meta": {
+    "title": "VGBC - Vietnam Global Business Council",
+    "description": "VGBC——连接人与企业、文化与世界的桥梁，让越南与世界共同腾飞。"
+  },
+  "ecosystem": {
+    "title": "VGBC 生态体系",
+    "note": "(附加服务 - 对确立\"国际商务理事会\"角色极具价值)",
+    "cta_titles": [
+      "语言与沟通",
+      "活动与媒体",
+      "企业发展与贸易",
+      "投资与项目咨询",
+      "企业代表服务"
+    ],
+    "sections": [
+      {
+        "id": "language",
+        "title": "语言与沟通",
+        "items": [
+          {
+            "title": "专业口译服务",
+            "desc": "同声传译、交替传译、陪同口译、现场翻译（英–越–中–日–韩等）"
+          },
+          {
+            "title": "双语主持与活动人才",
+            "desc": "双语主持人、国际活动人员、外事协调员"
+          },
+          {
+            "title": "商务英语培训",
+            "desc": "企业英语、商务谈判、演讲与商务书信写作"
+          }
+        ]
+      },
+      {
+        "id": "events",
+        "title": "活动与媒体",
+        "items": [
+          {
+            "title": "活动策划与执行",
+            "desc": "会议、研讨会、签约仪式、商务考察之旅"
+          },
+          {
+            "title": "公共关系与媒体宣传",
+            "desc": "媒体公关、新闻采访、品牌形象建设"
+          },
+          {
+            "title": "数字营销活动",
+            "desc": "内容制作、活动回顾视频、社交媒体推广"
+          }
+        ]
+      },
+      {
+        "id": "business",
+        "title": "企业发展与贸易促进",
+        "items": [
+          {
+            "title": "企业对企业连接（B2B）",
+            "desc": "连接国内外企业资源"
+          },
+          {
+            "title": "贸易促进支持",
+            "desc": "展会、洽谈会、买卖双方配对"
+          },
+          {
+            "title": "市场调研与战略咨询",
+            "desc": "市场分析与国际扩展战略"
+          }
+        ]
+      },
+      {
+        "id": "investment",
+        "title": "投资与项目咨询",
+        "items": [
+          {
+            "title": "投资对接服务",
+            "desc": "投资引资、项目与投资方对接"
+          },
+          {
+            "title": "项目评估与可行性分析",
+            "desc": "投资项目分析与材料准备"
+          },
+          {
+            "title": "企业咨询服务",
+            "desc": "为进入越南市场的外国企业提供基础法律与财务咨询"
+          }
+        ]
+      },
+      {
+        "id": "representation",
+        "title": "企业代表服务",
+        "items": [
+          {
+            "title": "代表处服务",
+            "desc": "在越南代表外国企业（商务洽谈、媒体宣传、接待与活动报告）"
+          },
+          {
+            "title": "品牌与媒体发言人",
+            "desc": "在官方活动或媒体中担任品牌代表或发言人"
+          },
+          {
+            "title": "本地运营支持",
+            "desc": "为未设立越南办事处的企业提供法律、语言、物流与传播支持"
+          },
+          {
+            "title": "贵宾与外事礼宾服务",
+            "desc": "为高层代表团提供礼宾接待与外事协调"
+          }
+        ]
+      }
+    ]
+  },
+  "businessNetwork": {
+    "title": "商务网络",
+    "subtitle": "与VGBC商业社区共同连接和发展",
+    "partners": {
+      "title": "合作伙伴类别",
+      "travel": {
+        "title": "旅游业",
+        "desc": "旅游和酒店业的领先合作伙伴"
+      },
+      "technology": {
+        "title": "科技",
+        "desc": "创新科技公司和初创企业"
+      },
+      "manufacturing": {
+        "title": "制造业",
+        "desc": "越南顶级制造商"
+      },
+      "export": {
+        "title": "进出口",
+        "desc": "国际贸易专家"
+      }
+    },
+    "successStories": {
+      "title": "成功案例",
+      "readMore": "阅读更多",
+      "story1": {
+        "title": "国际市场扩张",
+        "desc": "ABC公司通过VGBC网络成功扩展到5个新市场。"
+      },
+      "story2": {
+        "title": "突破性技术合作",
+        "desc": "科技公司与制造企业的合作创造了创新解决方案。"
+      },
+      "story3": {
+        "title": "出口增长300%",
+        "desc": "XYZ公司加入VGBC网络后实现了令人印象深刻的增长。"
+      }
+    },
+    "memberProgram": {
+      "title": "会员计划",
+      "desc": "成为VGBC会员，享受专属福利和无限制的社交机会",
+      "popular": "最受欢迎",
+      "basic": {
+        "title": "基础会员",
+        "feature1": "参加VGBC活动",
+        "feature2": "访问基本目录",
+        "feature3": "月度通讯",
+        "cta": "立即注册"
+      },
+      "professional": {
+        "title": "专业会员",
+        "feature1": "所有基础会员权益",
+        "feature2": "参加专属社交活动",
+        "feature3": "合作伙伴连接支持",
+        "feature4": "特殊活动20%折扣",
+        "cta": "立即注册"
+      },
+      "enterprise": {
+        "title": "企业会员",
+        "feature1": "所有专业会员权益",
+        "feature2": "VGBC网站上的公司简介",
+        "feature3": "优先合作伙伴推荐",
+        "feature4": "私人活动组织",
+        "feature5": "国际市场支持",
+        "cta": "联系我们"
+      }
+    },
+    "howToJoin": {
+      "title": "企业如何加入VGBC网络",
+      "step1": {
+        "title": "注册",
+        "desc": "填写注册表单并提交您的公司信息"
+      },
+      "step2": {
+        "title": "审核",
+        "desc": "VGBC团队将审核并批准您的申请"
+      },
+      "step3": {
+        "title": "连接",
+        "desc": "加入社区并开始与其他企业建立联系"
+      },
+      "step4": {
+        "title": "发展",
+        "desc": "利用机会和资源发展您的业务"
+      },
+      "cta": "立即加入"
+    }
+  },
+  "contact": {
+    "ariaLabel": "联系我们",
+    "title": "联系我们",
+    "subtitle": "我们随时准备支持您在合作、投资和国际传播方面的所有需求。",
+    "address": "地址：",
+    "address_value": "More大楼，越南胡志明市新定坊麦廷芝街36号",
+    "phone": "电话：",
+    "phone_value": "(+84) 374504168  Anh女士",
+    "email": "电子邮件：",
+    "email_value": "haanhpham1111@gmail.com",
+    "hours": "工作时间：",
+    "hours_value": "星期一至星期五：8:30 – 17:30",
+    "follow": "关注我们",
+    "social": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "zalo": "Zalo"
+    },
+    "form": {
+      "title": "给我们留言",
+      "nameLabel": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "emailLabel": "电子邮件",
+      "emailPlaceholder": "请输入您的电子邮件地址",
+      "messageLabel": "留言内容",
+      "messagePlaceholder": "请输入留言内容……",
+      "submit": "发送留言"
+    },
+    "mapLabel": "地图",
+    "map_location": "越南胡志明市第七郡ABC街490号"
+  }
+}

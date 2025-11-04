@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VGBC Translation Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>🌐 VGBC Translation Manager</h1>
+        <p>Quản lý nội dung đa ngôn ngữ (EN – VI – ZH)</p>
+    </header>
+
+    <!-- Bộ chọn ngôn ngữ -->
+    <section class="lang-controls">
+        <label>Ngôn ngữ mặc định:</label>
+        <select id="lang">
+            <option value="en">English</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="zh">中文</option>
+        </select>
+        <button id="reloadBtn">🔄 Tải lại</button>
+    </section>
+
+    <!-- Tabs chuyển section -->
+    <nav class="section-tabs" id="sectionTabs">
+        <button data-section="nav" class="active">🔗 Nav</button>
+        <button data-section="hero">🎬 Hero</button>
+        <button data-section="aboutvgbc">🏢 About VGBC</button>
+        <button data-section="testimonials">💬 Testimonials</button>
+        <button data-section="services">🧩 Services</button>
+        <button data-section="ecosystem">🌿 Ecosystem</button>
+        <button data-section="businessNetwork">🌏 Business Network</button>
+        <button data-section="footer">📞 Footer</button>
+        <button data-section="meta">⚙️ Meta</button>
+         <button data-section="contact">📧 Contact</button>
+    </nav>
+
+    <!-- Bảng hiển thị dữ liệu -->
+    <section id="tableContainer">
+        <h2 id="sectionTitle">Section: Nav</h2>
+        <div class="table-wrapper">
+            <table id="translationTable">
+                <thead>
+                    <tr>
+                        <th>Key</th>
+                        <th>Value</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Form chỉnh sửa -->
+    <section class="edit-form">
+        <h3>📝 Thêm / Sửa nội dung</h3>
+        <input type="text" id="keyInput" placeholder="vd: nav.join">
+        <textarea id="valueInput" placeholder="Giá trị..."></textarea>
+        <div class="buttons">
+            <button id="saveBtn">💾 Lưu</button>
+            <button id="deleteBtn">🗑️ Xóa</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 VGBC CMS – Quản lý nội dung đa ngôn ngữ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

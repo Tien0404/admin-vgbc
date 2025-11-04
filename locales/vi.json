@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "ariaLabel": "Điều hướng chính",
+    "join": "Gia nhập VGBC",
+    "homeLabel": "Trang chủ",
+    "program": "Chương trình",
+    "speakers": "Diễn giả",
+    "registration": "Đăng ký",
+    "virtual": "Trực tuyến",
+    "networking": "Networking",
+    "services": "Dịch vụ",
+    "Events": "Sự kiện",
+    "Business": "Mạng lưới doanh nghiệp",
+    "about": "Về chúng tôi",
+    "testimonials": "Khách hàng",
+    "phiendichvien": "Phiên dịch viên",
+    "blog": "Kiến thức",
+    "news": "Tin tức",
+    "contact": "Liên hệ",
+    "register": "Đăng ký ngay",
+    "mc": "Mc",
+    "compile": "Biên dịch",
+    "train": "đào tạo",
+    "home": "Trang chủ",
+    "cabinSimultaneous": "Phiên dịch cabin, phiên dịch song song",
+    "stage": "Phiên dịch sân khấu",
+    "bilingualMc": "MC Song Ngữ",
+    "meetingExhibition": "Phiên dịch cuộc họp, tháp tùng, triển lãm",
+    "online": "Phiên dịch online",
+    "languagePersonnel": "Nhân sự ngôn ngữ",
+    "company_name" :"Hội Đồng Kinh Doanh Quốc Tế Việt Nam"
+  },
+  "lang": {
+    "current": "VI"
+  },
+  "aboutvgbc": {
+    "title": "Về VGBC",
+    "subtitle": "<strong>Hội đồng Doanh nghiệp Toàn cầu Việt Nam (VGBC)</strong> trao quyền cho các doanh nghiệp Việt Nam và quốc tế nhằm <em>kết nối, hợp tác và phát triển bền vững</em>. Chúng tôi hoạt động như một <strong>hội đồng chiến lược về thương mại và kinh doanh</strong>, tạo điều kiện thúc đẩy các mối quan hệ hợp tác xuyên biên giới, các chuyến xúc tiến thương mại và hỗ trợ doanh nghiệp thâm nhập thị trường giữa Việt Nam và thế giới.",
+    "title1": "Sứ mệnh",
+    "subtitle1": "Trở thành cánh cổng đáng tin cậy nâng tầm vị thế doanh nghiệp Việt Nam trên trường quốc tế — kết nối chính phủ, các tập đoàn và doanh nhân thông qua hợp tác ý nghĩa và các sáng kiến có tác động cao.",
+    "title2": "Tầm nhìn",
+    "subtitle2": "Định vị VGBC là <strong>trung tâm hàng đầu châu Á</strong> về xúc tiến kinh doanh quốc tế và phát triển quan hệ đối tác — nơi ngôn ngữ, uy tín và đổi mới giao hòa.",
+    "title3": "Giá trị cốt lõi",
+    "subtitle3-1": "<strong>Xuất sắc & Chính trực</strong> — Chuyên nghiệp theo tiêu chuẩn quốc tế.",
+    "subtitle3-2": "<strong>Kết nối Đông & Tây</strong> — Các chuyên gia đa ngôn ngữ biến giao tiếp thành kết nối.",
+    "subtitle3-3": "<strong>Trao quyền & Phát triển</strong> — Tạo ra tác động đo lường được cho sự mở rộng bền vững."
+  },
+  "hero": {
+    "1": " Phiên dịch, MC đa ngôn ngữ, Nhân sự ngôn ngữ đa nhiệm",
+    "2": "Tổ chức sự kiện & Giải pháp truyền thông",
+    "3": "Phát triển doanh nghiệp & Kết nối, xúc tiến thương mại",
+    "4": "Tư vấn đầu tư & Dự án",
+    "5": "Giải pháp đại diện doanh nghiệp",
+    "6": "Dịch vụ Phiên Dịch",
+    "title": "VGBC - Cầu Nối Giữa Con Người, Doanh Nghiệp và Văn Hóa - Để Việt Nam và Thế Giới Cùng Vươn Xa",
+    "subtitle": " VGBC – Hội Đồng Kinh Doanh Quốc Tế Việt Nam là một tổ chức hoạt động hướng tới phát triển cộng đồng doanh nghiệp với mục tiêu thúc đẩy hợp tác thương mại truyền thông và kết nối doanh nghiệp Việt Nam và doanh nghiệp quốc tế. Tại VGBC, sức mạnh lớn nhất của chúng tôi chính là con người — đội ngũ chuyên gia, phiên dịch viên, MC song ngữ, cố vấn truyền thông và chiến lược kinh doanh giàu kinh nghiệm, cùng chung một sứ mệnh: kết nối Việt Nam với thế giới. Từ những nhà điều phối sự kiện quốc tế, nhà đàm phán song ngữ, cho tới chuyên gia xúc tiến thương mại và truyền thông toàn cầu. Mỗi nhân sự của VGBC đều mang trong mình tinh thần chuyên nghiệp, linh hoạt và tư duy toàn cầu. Chúng tôi không chỉ cung cấp dịch vụ, mà kiến tạo những cây cầu con người, nơi doanh nghiệp và đối tác có thể tìm thấy sự tin cậy, hiệu quả và giá trị thực trong mọi hợp tác xuyên biên giới. Nhân sự của VGBC không chỉ là chuyên gia, họ là người kết nối văn hoá, người kể chuyện thương hiệu và là đại diện của thế hệ doanh nhân toàn cầu mới của Việt Nam.",
+    "btnServices": "Xem dịch vụ",
+    "btnQuote": "Nhận báo giá",
+    "videoLabel": "Video giới thiệu",
+    "videoTitle": "Giới thiệu",
+    "table": "Hệ sinh thái VGBC"
+  },
+  "testimonials": {
+    "title": "Khách hàng nói gì",
+    "ariaLabel": "Cảm nhận khách hàng",
+    "prev": "Trước",
+    "next": "Tiếp",
+    "testimonial1": "ĐIIĐII",
+    "testimonial1Author": "Đại diện doanh nghiệp năng lượng ÁDFAF",
+    "testimonial1Name": "Phạm Nhật Vượng FDAF",
+    "testimonial1Company": "Vingroup GGG",
+    "testimonial2": "Tốc độ xử lý thuật ngữ tốt, hỗ trợ chương trình trơn tru từ khâu chuẩn bị đến vận hành.",
+    "testimonial2Author": "Phó Chủ tịch Hội đồng Quản trị",
+    "testimonial2Name": "Hoàng Nam Tiến",
+    "testimonial2Company": "FPT Corporation",
+    "testimonial3": "MC song ngữ duyên dáng, kết nối khán giả và diễn giả quốc tế rất tự nhiên.",
+    "testimonial3Author": "Chủ tịch Hội đồng Quản trị",
+    "testimonial3Name": "Đặng Lê Nguyên Vũ",
+    "testimonial3Company": "Tập đoàn Trung Nguyên",
+    "testimonial4": "Đội ngũ biên dịch chuẩn xác, thống nhất thuật ngữ, bàn giao nhanh.",
+    "testimonial4Author": "Tổng Giám đốc",
+    "testimonial4Name": "Bùi Thị Minh",
+    "testimonial4Company": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+    "testimonial5": "Phiên dịch viên chuyên nghiệp, am hiểu sâu về lĩnh vực y tế và đã hỗ trợ rất tốt cho hội thảo quốc tế của chúng tôi.",
+    "testimonial5Author": "Giám đốc Điều hành",
+    "testimonial5Name": "Trần Thị Trinh",
+    "testimonial5Company": "Tập đoàn Đầu tư VinaCapital",
+    "testimonial6": "Dịch vụ phiên dịch simultaneously chất lượng cao, giúp hội nghị thành công vượt mong đợi.",
+    "testimonial6Author": "Chủ tịch Hội đồng Quản trị",
+    "testimonial6Name": "Nguyễn Quang",
+    "testimonial6Company": "Tập đoàn BRG",
+    "testimonial7": "Đội ngũ phiên dịch nhiệt tình, chuyên nghiệp và rất linh hoạt trong các tình huống phát sinh.",
+    "testimonial7Author": "Tổng Giám đốc",
+    "testimonial7Name": "Võ Trường",
+    "testimonial7Company": "Tập đoàn Novaland",
+    "testimonial8": "Phiên dịch viên có kiến thức sâu về kỹ thuật, giúp buổi trình bày sản phẩm hiệu quả.",
+    "testimonial8Author": "Chủ tịch Hội đồng Quản trị",
+    "testimonial8Name": "Lê Hùng",
+    "testimonial8Company": "Tập đoàn Hòa Phát"
+  },
+  "services": {
+    "title": "Chúng tôi cung cấp",
+    "subtitle": "Danh mục dịch vụ toàn diện cho doanh nghiệp.",
+    "ariaLabel": "Dịch vụ chuyên nghiệp",
+    "conference": "Phiên dịch Hội nghị",
+    "conferenceDesc": "Cung cấp phiên dịch chuyên nghiệp cho các hội nghị, sự kiện quốc tế với đội ngũ thông dịch viên kinh nghiệm.",
+    "bilingualMC": "MC Song ngữ",
+    "bilingualMCDesc": "Dẫn dắt chuyên nghiệp các sự kiện bằng hai ngôn ngữ, kết nối hiệu quả khán giả đa văn hóa.",
+    "english": "Tiếng Anh Doanh nghiệp",
+    "englishDesc": "Dạy tiếng Anh chuyên biệt cho doanh nghiệp và doanh nhân, tập trung vào giao tiếp thương mại quốc tế.",
+    "events": "Tổ chức sự kiện",
+    "eventsDesc": "Tổ chức chuyên nghiệp các hội nghị, hội thảo, sự kiện với quy mô đa dạng từ nhỏ đến lớn.",
+    "media": "Truyền thông báo chí",
+    "mediaDesc": "Cung cấp dịch vụ truyền thông, quảng cáo trên các phương tiện báo chí, nâng cao hình ảnh thương hiệu.",
+    "business": "Kết nối kinh doanh",
+    "businessDesc": "Xúc tiến thương mại, kết nối doanh nghiệp, tạo cơ hội hợp tác kinh doanh trong và ngoài nước.",
+    "investment": "Kêu gọi vốn đầu tư",
+    "investmentDesc": "Hỗ trợ kêu gọi vốn đầu tư cho các dự án, kết nối với nhà đầu tư trong và ngoài nước.",
+    "viewMore": "Xem thêm",
+    "a": "Du lịch Công tác",
+    "aDesc": "Dành cho các doanh nhân, nhà đầu tư Quốc tế muốn đến Việt Nam tìm hiểu thị trường, tìm kiếm đối tác, khách hàng..."
+  },
+  "footer": {
+    "title": "VGBC – Hội đồng Kinh doanh Quốc tế Việt Nam",
+    "tagline": "Đội ngũ phiên dịch viên chuyên nghiệp, kết nối doanh nghiệp Việt Nam với thế giới thông qua dịch vụ ngôn ngữ đẳng cấp quốc tế.",
+    "contact": "Liên hệ",
+    "follow": "Theo dõi chúng tôi",
+    "copyright": "© <span id=\"year\"></span> VGBC — Đội ngũ phiên dịch viên chuyên nghiệp, kết nối doanh nghiệp Việt Nam với thế giới.",
+    "backToTop": "Lên đầu trang",
+    "backToTopLabel": "Lên đầu trang",
+    "contactInfo": {
+      "address": "Toà nhà More Building, số 36, Mạc Đĩnh Chi, phường Tân Định, thành phố Hồ Chí Minh",
+      "phone": "+84 374504168  Ms. Anh",
+      "email": "haanhpham1111@gmail.com"
+    },
+    "quickLinks": "Liên kết nhanh",
+    "services": "Dịch vụ",
+    "links": {
+      "home": "Trang chủ",
+      "services": "Dịch vụ",
+      "about": "Về chúng tôi",
+      "interpreters": "Phiên dịch viên",
+      "blog": "Kiến thức",
+      "contact": "Liên hệ"
+    },
+    "serviceLinks": {
+      "cabin": "Phiên dịch cabin, song song",
+      "stage": "Phiên dịch sân khấu",
+      "mc": "MC Song Ngữ",
+      "online": "Phiên dịch online",
+      "personnel": "Nhân sự ngôn ngữ"
+    },
+    "newsletterText": "Đăng ký nhận tin mới nhất",
+    "emailPlaceholder": "Email của bạn",
+    "subscribe": "Đăng ký"
+  },
+  "meta": {
+    "title": "VGBC -  Hội đồng Kinh doanh Toàn cầu Việt Nam",
+    "description": "VGBC là cầu nối thương mại toàn cầu của Việt Nam – kết nối chiến lược, dịch vụ phiên dịch cao cấp, và đại diện doanh nghiệp tin cậy cho phát triển bền vững."
+  },
+  "ecosystem": {
+    "title": "Hệ sinh thái VGBC",
+    "note": "(Dịch vụ bổ sung – rất giá trị để khẳng định vai trò \"Hội đồng kinh doanh quốc tế\")",
+    "cta_titles": [
+      "Ngôn ngữ & Giao tiếp",
+      "Sự kiện & Truyền thông",
+      "Phát triển DN & Xúc tiến TM",
+      "Tư vấn đầu tư & Dự án",
+      "Đại diện doanh nghiệp"
+    ],
+    "sections": [
+      {
+        "id": "language",
+        "title": "Ngôn ngữ & Giao tiếp",
+        "items": [
+          {
+            "title": "Phiên dịch chuyên nghiệp",
+            "desc": "Phiên dịch cabin, song song, nối tiếp, hiện trường (Anh–Việt–Trung–Nhật–Hàn…)"
+          },
+          {
+            "title": "MC song ngữ & Nhân sự sự kiện",
+            "desc": "MC song ngữ, nhân sự sự kiện quốc tế, điều phối viên ngoại giao"
+          },
+          {
+            "title": "Đào tạo tiếng Anh thương mại",
+            "desc": "Dạy tiếng Anh cho doanh nghiệp, tiếng Anh đàm phán, thuyết trình, thư tín thương mại"
+          }
+        ]
+      },
+      {
+        "id": "events",
+        "title": "Sự kiện & Truyền thông",
+        "items": [
+          {
+            "title": "Tổ chức sự kiện",
+            "desc": "Tổ chức hội nghị, hội thảo, lễ ký kết, Business Tour"
+          },
+          {
+            "title": "Quan hệ công chúng & Báo chí",
+            "desc": "Truyền thông, báo chí, phỏng vấn, xây dựng hình ảnh thương hiệu"
+          },
+          {
+            "title": "Chiến dịch kỹ thuật số",
+            "desc": "Sản xuất nội dung, video recap, chiến dịch mạng xã hội"
+          }
+        ]
+      },
+      {
+        "id": "business",
+        "title": "Phát triển doanh nghiệp & Xúc tiến thương mại",
+        "items": [
+          {
+            "title": "Kết nối doanh nghiệp (B2B)",
+            "desc": "Kết nối doanh nghiệp trong và ngoài nước"
+          },
+          {
+            "title": "Hỗ trợ thương mại",
+            "desc": "Hỗ trợ doanh nghiệp tham gia hội chợ, triển lãm, kết nối buyer–seller"
+          },
+          {
+            "title": "Nghiên cứu thị trường & Chiến lược",
+            "desc": "Nghiên cứu thị trường, tư vấn chiến lược mở rộng quốc tế"
+          }
+        ]
+      },
+      {
+        "id": "investment",
+        "title": "Tư vấn đầu tư & Dự án",
+        "items": [
+          {
+            "title": "Kết nối đầu tư",
+            "desc": "Kêu gọi vốn, kết nối nhà đầu tư"
+          },
+          {
+            "title": "Đánh giá dự án",
+            "desc": "Phân tích và chuẩn bị hồ sơ dự án đầu tư"
+          },
+          {
+            "title": "Tư vấn doanh nghiệp",
+            "desc": "Tư vấn pháp lý & tài chính cơ bản cho doanh nghiệp nước ngoài vào Việt Nam"
+          }
+        ]
+      },
+      {
+        "id": "representation",
+        "title": "Đại diện doanh nghiệp",
+        "items": [
+          {
+            "title": "Dịch vụ văn phòng đại diện",
+            "desc": "Đại diện DN nước ngoài tại VN (thương thảo, truyền thông, tiếp khách, báo cáo hoạt động)"
+          },
+          {
+            "title": "Đại diện thương hiệu & truyền thông",
+            "desc": "Đại diện thương hiệu tại sự kiện hoặc truyền thông chính thức"
+          },
+          {
+            "title": "Hỗ trợ vận hành địa phương",
+            "desc": "Hỗ trợ pháp lý – ngôn ngữ – logistics – truyền thông cho DN chưa có văn phòng tại VN"
+          },
+          {
+            "title": "Hỗ trợ nghi lễ & đối ngoại cấp cao",
+            "desc": "Hỗ trợ nghi lễ, đón tiếp & điều phối đối ngoại cho các đoàn công tác cấp cao"
+          }
+        ]
+      }
+    ]
+  },
+  "businessNetwork": {
+    "title": "Mạng lưới doanh nghiệp",
+    "subtitle": "Kết nối và phát triển cùng cộng đồng doanh nghiệp VGBC",
+    "partners": {
+      "title": "Danh mục đối tác",
+      "travel": {
+        "title": "Du lịch",
+        "desc": "Các đối tác hàng đầu trong ngành du lịch và khách sạn"
+      },
+      "technology": {
+        "title": "Công nghệ",
+        "desc": "Doanh nghiệp công nghệ innovativ và startups"
+      },
+      "manufacturing": {
+        "title": "Sản xuất",
+        "desc": "Các nhà sản xuất hàng đầu Việt Nam"
+      },
+      "export": {
+        "title": "Xuất nhập khẩu",
+        "desc": "Chuyên gia thương mại quốc tế"
+      }
+    },
+    "successStories": {
+      "title": "Câu chuyện thành công",
+      "readMore": "Đọc thêm",
+      "story1": {
+        "title": "Mở rộng thị trường quốc tế",
+        "desc": "Công ty ABC đã thành công mở rộng sang 5 thị trường mới thông qua mạng lưới VGBC."
+      },
+      "story2": {
+        "title": "Hợp tác công nghệ đột phá",
+        "desc": "Sự kết hợp giữa doanh nghiệp công nghệ và sản xuất tạo ra giải pháp innovativ."
+      },
+      "story3": {
+        "title": "Tăng trưởng xuất khẩu 300%",
+        "desc": "Doanh nghiệp XYZ tăng trưởng ấn tượng sau khi tham gia mạng lưới VGBC."
+      }
+    },
+    "howToJoin": {
+      "title": "Cách doanh nghiệp có thể tham gia mạng lưới VGBC",
+      "step1": {
+        "title": "Đăng ký",
+        "desc": "Điền form đăng ký và gửi thông tin công ty của bạn"
+      },
+      "step2": {
+        "title": "Xét duyệt",
+        "desc": "Đội ngũ VGBC sẽ xem xét và phê duyệt hồ sơ của bạn"
+      },
+      "step3": {
+        "title": "Kết nối",
+        "desc": "Tham gia cộng đồng và bắt đầu kết nối với các doanh nghiệp khác"
+      },
+      "step4": {
+        "title": "Phát triển",
+        "desc": "Tận dụng các cơ hội và nguồn lực để phát triển kinh doanh"
+      },
+      "cta": "Đăng ký tham gia ngay"
+    }
+  },
+   "contact": {
+    "ariaLabel": "Liên hệ",
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn trong mọi yêu cầu hợp tác, đầu tư và truyền thông quốc tế.",
+    "address": "Địa chỉ:",
+    "address_value": "Toà nhà More Building, số 36, Mạc Đĩnh Chi, phường Tân Định, thành phố Hồ Chí Minh",
+    "phone": "Điện thoại:",
+    "phone_value": "(+84) 374504168  Ms. Anh",
+    "email": "Email:",
+    "email_value": "haanhpham1111@gmail.com",
+    "hours": "Giờ làm việc:",
+    "hours_value": "Thứ 2 – Thứ 6: 8:30 – 17:30",
+    "follow": "Kết nối với chúng tôi",
+    "social": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "zalo": "Zalo"
+    },
+    "form": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "nameLabel": "Họ và tên",
+      "namePlaceholder": "Nhập họ và tên của bạn",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Địa chỉ email của bạn",
+      "messageLabel": "Nội dung",
+      "messagePlaceholder": "Nội dung tin nhắn...",
+      "submit": "Gửi tin nhắn"
+    },
+    "mapLabel": "Bản đồ",
+    "map_location": "490 ABC Street, District 7, Ho Chi Minh City"
+  }
+
+}
