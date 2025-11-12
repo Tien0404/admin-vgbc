@@ -5,17 +5,15 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
+    "mongoose": "^8.19.3",
     "nodemailer": "^6.9.13",
     "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
   }
 }

@@ -348,6 +348,5 @@ app.get("/", (req, res) => {
 });
 
 // ------------------ SERVER ------------------
-app.listen(3000, () => {
-  console.log("🚀 Server JSON + MongoDB đang chạy tại http://localhost:3000");
-});
+
+export default app;

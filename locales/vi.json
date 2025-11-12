@@ -1,6 +1,6 @@
 {
   "nav": {
-    "ariaLabel": "Điều hướng chính",
+    "ariaLabel": "Điều hướng ",
     "join": "Gia nhập VGBC",
     "homeLabel": "Trang chủ",
     "program": "Chương trình",
@@ -28,7 +28,7 @@
     "meetingExhibition": "Phiên dịch cuộc họp, tháp tùng, triển lãm",
     "online": "Phiên dịch online",
     "languagePersonnel": "Nhân sự ngôn ngữ",
-    "company_name" :"Hội Đồng Kinh Doanh Quốc Tế Việt Nam"
+    "company_name": "Hội Đồng Kinh Doanh Quốc Tế Việt Nam"
   },
   "lang": {
     "current": "VI"
@@ -324,7 +324,7 @@
       "cta": "Đăng ký tham gia ngay"
     }
   },
-   "contact": {
+  "contact": {
     "ariaLabel": "Liên hệ",
     "title": "Liên hệ với chúng tôi",
     "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn trong mọi yêu cầu hợp tác, đầu tư và truyền thông quốc tế.",
@@ -356,5 +356,4 @@
     "mapLabel": "Bản đồ",
     "map_location": "490 ABC Street, District 7, Ho Chi Minh City"
   }
-
 }
