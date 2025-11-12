@@ -7,15 +7,10 @@ import cors from "cors";
 
 // ------------------ MongoDB CONNECT ------------------
 mongoose.connect(
-  process.env.MONGO_URI,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+  "mongodb+srv://votien4040_db_user:wYKL94DSiYx2Z3qG@vgbc.0wh1mqk.mongodb.net/vgbc")
+  .then(() => console.log("✅ MongoDB connected"))
+  .catch((err) => console.error("❌ MongoDB error:", err));;
 
-mongoose.connection.on("connected", () => console.log("✅ MongoDB connected"));
-mongoose.connection.on("error", (err) => console.error("❌ MongoDB error:", err));
 
 const LangSchema = new mongoose.Schema({
   _id: { type: String, required: true }, // en, vi, zh
