@@ -7,7 +7,7 @@ import cors from "cors";
 
 // ------------------ MongoDB CONNECT ------------------
 mongoose.connect(
-  "mongodb+srv://votien4040_db_user:wYKL94DSiYx2Z3qG@vgbc.0wh1mqk.mongodb.net/vgbc",
+  process.env.MONGO_URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -29,6 +29,7 @@ const LangModel = mongoose.model("translations", LangSchema);
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
+const PORT = process.env.PORT || 3000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -348,6 +349,6 @@ app.get("/", (req, res) => {
 });
 
 // ------------------ SERVER ------------------
-app.listen(3000, () => {
-  console.log("🚀 Server JSON + MongoDB đang chạy tại http://localhost:3000");
+app.listen(PORT, () => {
+  console.log(`🚀 Server JSON + MongoDB đang chạy trên cổng ${PORT}`);
 });
