@@ -3,75 +3,138 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VGBC Translation Manager</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- CSS Modules -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <h1>🌐 VGBC Translation Manager</h1>
-        <p>Quản lý nội dung đa ngôn ngữ (EN – VI – ZH)</p>
+        <div class="header-content">
+            <h1>🌐 VGBC Translation Manager</h1>
+            <p>Quản lý nội dung đa ngôn ngữ (EN – VI – ZH) - Chỉnh sửa song song 3 ngôn ngữ</p>
+        </div>
     </header>
 
-    <!-- Bộ chọn ngôn ngữ -->
-    <section class="lang-controls">
-        <label>Ngôn ngữ mặc định:</label>
-        <select id="lang">
-            <option value="en">English</option>
-            <option value="vi">Tiếng Việt</option>
-            <option value="zh">中文</option>
-        </select>
-        <button id="reloadBtn">🔄 Tải lại</button>
+    <!-- Thanh công cụ -->
+    <section class="toolbar">
+        <div class="toolbar-left">
+            <div class="view-mode">
+                <label>Chế độ xem:</label>
+                <button id="viewMultiLang" class="view-btn active" title="Xem 3 ngôn ngữ">
+                    <span>🌍</span> Đa ngôn ngữ
+                </button>
+                <button id="viewSingleLang" class="view-btn" title="Xem 1 ngôn ngữ">
+                    <span>📝</span> Đơn ngôn ngữ
+                </button>
+            </div>
+            <div class="single-lang-select" style="display:none;">
+                <select id="lang">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="vi">🇻🇳 Tiếng Việt</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+        </div>
+        <div class="toolbar-right">
+            <button id="reloadBtn" class="btn-reload">🔄 Tải lại</button>
+            <button id="addNewKeyBtn" class="btn-add">➕ Thêm key mới</button>
+        </div>
     </section>
 
     <!-- Tabs chuyển section -->
     <nav class="section-tabs" id="sectionTabs">
-        <button data-section="nav" class="active">🔗 Nav</button>
+        <button data-section="nav" class="active">🔗 Navigation</button>
         <button data-section="hero">🎬 Hero</button>
-        <button data-section="aboutvgbc">🏢 About VGBC</button>
-        <button data-section="testimonials">💬 Testimonials</button>
-        <button data-section="news">News</button>
+        <button data-section="aboutvgbc">🏢 About</button>
         <button data-section="services">🧩 Services</button>
+        <button data-section="testimonials">💬 Testimonials</button>
+        <button data-section="news">📰 News</button>
         <button data-section="ecosystem">🌿 Ecosystem</button>
-        <button data-section="businessNetwork">🌏 Business Network</button>
+        <button data-section="businessNetwork">🌏 Business</button>
+        <button data-section="contact">📧 Contact</button>
         <button data-section="footer">📞 Footer</button>
         <button data-section="meta">⚙️ Meta</button>
-        <button data-section="contact">📧 Contact</button>
     </nav>
+
+    <!-- Thanh tìm kiếm -->
+    <section class="search-bar">
+        <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm key hoặc nội dung...">
+        <div class="search-stats">
+            <span id="totalKeys">0</span> keys | <span id="missingKeys">0</span> thiếu bản dịch
+        </div>
+    </section>
 
     <!-- Bảng hiển thị dữ liệu -->
     <section id="tableContainer">
-        <h2 id="sectionTitle">Section: Nav</h2>
-        <div class="table-wrapper">
+        <div class="section-header">
+            <h2 id="sectionTitle">📁 Section: Navigation</h2>
+            <div class="section-actions">
+                <button id="expandAllBtn" class="btn-small">📂 Mở rộng tất cả</button>
+                <button id="collapseAllBtn" class="btn-small">📁 Thu gọn tất cả</button>
+            </div>
+        </div>
+
+        <div class="table-wrapper" id="multiLangTable">
             <table id="translationTable">
                 <thead>
                     <tr>
-                        <th>Key</th>
-                        <th>Value</th>
-                        <th>Hành động</th>
+                        <th class="col-key">Key</th>
+                        <th class="col-lang">🇬🇧 English</th>
+                        <th class="col-lang">🇻🇳 Tiếng Việt</th>
+                        <th class="col-lang">🇨🇳 中文</th>
+                        <th class="col-action">Hành động</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody id="tableBody"></tbody>
             </table>
         </div>
     </section>
 
-    <!-- Form chỉnh sửa -->
-    <section class="edit-form">
-        <h3>📝 Thêm / Sửa nội dung</h3>
-        <input type="text" id="keyInput" placeholder="vd: nav.join">
-        <textarea id="valueInput" placeholder="Giá trị..."></textarea>
-        <div class="buttons">
-            <button id="saveBtn"> Lưu</button>
-            <button id="deleteBtn"> Xóa</button>
+    <!-- Modal thêm key mới -->
+    <div id="addKeyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>➕ Thêm Key Mới</h3>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Key Path:</label>
+                    <input type="text" id="newKeyPath" placeholder="vd: nav.newItem hoặc services.newService">
+                    <small>Sử dụng dấu chấm (.) để tạo nested key</small>
+                </div>
+                <div class="form-group">
+                    <label>🇬🇧 English:</label>
+                    <textarea id="newValueEn" placeholder="Nội dung tiếng Anh..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>🇻🇳 Tiếng Việt:</label>
+                    <textarea id="newValueVi" placeholder="Nội dung tiếng Việt..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>🇨🇳 中文:</label>
+                    <textarea id="newValueZh" placeholder="Nội dung tiếng Trung..."></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="cancelAddKey" class="btn-cancel">Hủy</button>
+                <button id="confirmAddKey" class="btn-confirm">✅ Thêm Key</button>
+            </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Toast notification -->
+    <div id="toast" class="toast"></div>
 
     <footer>
-        <p>© 2025 VGBC CMS – Quản lý nội dung đa ngôn ngữ</p>
+        <p>© 2025 VGBC CMS – Quản lý nội dung đa ngôn ngữ | Phiên bản 2.0</p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- JavaScript Modules -->
+    <script type="module" src="js/app.js"></script>
 </body>
 
 </html>

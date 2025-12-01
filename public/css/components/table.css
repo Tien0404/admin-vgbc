@@ -1,0 +1,196 @@
+/* ==================== TABLE STYLES ==================== */
+
+#translationTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#translationTable thead {
+    background: linear-gradient(135deg, var(--gray-50), var(--gray-100));
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#translationTable th {
+    padding: var(--space-4);
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--gray-600);
+    border-bottom: 2px solid var(--gray-200);
+}
+
+#translationTable th.col-key {
+    width: 180px;
+    min-width: 150px;
+}
+
+#translationTable th.col-lang {
+    width: 25%;
+    min-width: 200px;
+}
+
+#translationTable th.col-action {
+    width: 100px;
+    text-align: center;
+}
+
+#translationTable tbody tr {
+    border-bottom: 1px solid var(--gray-100);
+    transition: var(--transition);
+    animation: slideUp 0.2s ease;
+}
+
+#translationTable tbody tr:hover {
+    background: var(--gray-50);
+}
+
+#translationTable tbody tr.row-missing {
+    background: var(--warning-light);
+}
+
+#translationTable tbody tr.row-missing:hover {
+    background: #fef0c7;
+}
+
+#translationTable td {
+    padding: var(--space-3) var(--space-4);
+    vertical-align: top;
+}
+
+/* Key Column */
+.col-key {
+    background: var(--gray-50);
+    border-right: 1px solid var(--gray-200);
+}
+
+.key-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.key-wrapper code {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--gray-700);
+    word-break: break-all;
+    background: var(--gray-100);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+}
+
+.badge-missing {
+    font-size: 0.625rem;
+    color: var(--warning);
+    font-weight: 500;
+}
+
+/* Language Columns */
+.col-lang {
+    position: relative;
+}
+
+.lang-input {
+    width: 100%;
+    min-height: 60px;
+    max-height: 200px;
+    padding: var(--space-2);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: var(--transition);
+    line-height: 1.5;
+}
+
+.lang-input:focus {
+    outline: none;
+    border-color: var(--primary-400);
+    box-shadow: 0 0 0 3px var(--primary-100);
+}
+
+.input-en {
+    border-left: 3px solid var(--lang-en);
+}
+
+.input-vi {
+    border-left: 3px solid var(--lang-vi);
+}
+
+.input-zh {
+    border-left: 3px solid var(--lang-zh);
+}
+
+.input-en:focus {
+    border-color: var(--lang-en);
+    box-shadow: 0 0 0 3px var(--lang-en-bg);
+}
+
+.input-vi:focus {
+    border-color: var(--lang-vi);
+    box-shadow: 0 0 0 3px var(--lang-vi-bg);
+}
+
+.input-zh:focus {
+    border-color: var(--lang-zh);
+    box-shadow: 0 0 0 3px var(--lang-zh-bg);
+}
+
+.lang-missing {
+    display: block;
+    font-size: 0.625rem;
+    color: var(--danger);
+    margin-top: var(--space-1);
+}
+
+/* Action Column */
+.col-action {
+    text-align: center;
+}
+
+/* Single Lang Mode */
+.col-lang-single {
+    width: 70%;
+}
+
+.lang-input-single {
+    width: 100%;
+    min-height: 80px;
+    padding: var(--space-3);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: var(--transition);
+}
+
+.lang-input-single:focus {
+    outline: none;
+    border-color: var(--primary-400);
+    box-shadow: 0 0 0 3px var(--primary-100);
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: var(--space-8) !important;
+    color: var(--gray-500);
+}
+
+.empty-icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-4);
+}
+
+/* Add Row */
+.add-row {
+    background: var(--gray-50);
+    text-align: center;
+    padding: var(--space-6) !important;
+}

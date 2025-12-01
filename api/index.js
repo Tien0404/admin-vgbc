@@ -49,6 +49,86 @@ async function saveLang(lang, data) {
   );
 }
 
+// ------------------ API BULK (ĐẶT TRƯỚC :lang) ------------------
+
+// ✅ API lấy tất cả ngôn ngữ cùng lúc
+app.get("/api/lang/all", async (req, res) => {
+  try {
+    const [en, vi, zh] = await Promise.all([
+      readLang("en"),
+      readLang("vi"),
+      readLang("zh")
+    ]);
+    res.json({ en, vi, zh });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ API cập nhật bulk cho nhiều ngôn ngữ
+app.post("/api/lang/bulk", async (req, res) => {
+  try {
+    const { pathKey, values } = req.body;
+    if (!pathKey || !values) {
+      return res.status(400).json({ error: "Thiếu pathKey hoặc values" });
+    }
+
+    const langs = ["en", "vi", "zh"];
+    const results = [];
+
+    for (const lang of langs) {
+      if (values[lang] !== undefined) {
+        const data = await readLang(lang);
+        const keys = pathKey.split(".");
+        let obj = data;
+
+        for (let i = 0; i < keys.length - 1; i++) {
+          if (!obj[keys[i]]) obj[keys[i]] = {};
+          obj = obj[keys[i]];
+        }
+
+        obj[keys[keys.length - 1]] = values[lang];
+        await saveLang(lang, data);
+        results.push({ lang, status: "updated" });
+      }
+    }
+
+    res.json({ message: "✅ Cập nhật thành công", pathKey, results });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ API xóa key trên tất cả ngôn ngữ
+app.delete("/api/lang/bulk", async (req, res) => {
+  try {
+    const { pathKey } = req.body;
+    if (!pathKey) return res.status(400).json({ error: "Thiếu pathKey" });
+
+    const langs = ["en", "vi", "zh"];
+
+    for (const lang of langs) {
+      const data = await readLang(lang);
+      const keys = pathKey.split(".");
+      let obj = data;
+
+      for (let i = 0; i < keys.length - 1; i++) {
+        if (!obj[keys[i]]) break;
+        obj = obj[keys[i]];
+      }
+
+      if (obj && obj[keys[keys.length - 1]] !== undefined) {
+        delete obj[keys[keys.length - 1]];
+        await saveLang(lang, data);
+      }
+    }
+
+    res.json({ message: `🗑️ Đã xóa "${pathKey}" trên tất cả ngôn ngữ` });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // ------------------ API CƠ BẢN ------------------
 
 // ✅ Lấy toàn bộ nội dung

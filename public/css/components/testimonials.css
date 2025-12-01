@@ -1,0 +1,148 @@
+/* ==================== TESTIMONIALS & NEWS STYLES ==================== */
+
+.testimonial-row,
+.news-row {
+    background: white;
+}
+
+.testimonial-row:hover,
+.news-row:hover {
+    background: var(--gray-50);
+}
+
+.testimonial-cell,
+.news-cell {
+    padding: var(--space-4) !important;
+}
+
+.testimonial-fields,
+.news-fields {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.field-group label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.field-group input,
+.field-group textarea {
+    padding: var(--space-2);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-family: inherit;
+    transition: var(--transition);
+}
+
+.field-group input:focus,
+.field-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-400);
+    box-shadow: 0 0 0 3px var(--primary-100);
+}
+
+.field-group textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.field-row {
+    display: flex;
+    gap: var(--space-3);
+}
+
+.field-group.half {
+    flex: 1;
+}
+
+.testimonial-id,
+.news-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.id-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+    color: white;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border-radius: 50%;
+}
+
+.news-preview {
+    margin-top: var(--space-2);
+}
+
+.news-thumb {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    border: 2px solid var(--gray-200);
+}
+
+.no-image {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-100);
+    border-radius: var(--radius-md);
+    font-size: 1.5rem;
+}
+
+/* Tes
+timonial Image Preview */
+.testimonial-img-preview {
+    margin: var(--space-2) 0;
+}
+
+.t-img-preview {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--gray-200);
+}
+
+.t-img-placeholder {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-100);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--gray-400);
+}
+
+.img-field {
+    margin-top: var(--space-2);
+    width: 100%;
+}
+
+.img-field input {
+    width: 100%;
+    font-size: 0.75rem;
+}

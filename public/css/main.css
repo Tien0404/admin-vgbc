@@ -1,0 +1,18 @@
+/* ==================== MAIN CSS - IMPORTS ALL MODULES ==================== */
+
+/* Variables & Base */
+@import url('./variables.css');
+@import url('./base.css');
+
+/* Layout */
+@import url('./layout.css');
+
+/* Components */
+@import url('./components/buttons.css');
+@import url('./components/table.css');
+@import url('./components/modal.css');
+@import url('./components/toast.css');
+@import url('./components/testimonials.css');
+
+/* Responsive */
+@import url('./responsive.css');
